@@ -10,6 +10,7 @@ export default function App() {
     <div className="App">
       <div>
         <button onClick={() => setTab("Posts")}>Posts</button>
+        &nbsp;
         <button onClick={() => setTab("Todos")}>Todos</button>
       </div>
       <div>
